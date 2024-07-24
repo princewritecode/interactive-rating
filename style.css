@@ -11,16 +11,19 @@ body {
   background-color: #1d232d;
   min-width: 30%;
   max-width: 30%;
-
   height: 40%;
   padding: 2rem;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
 }
+.rating-card-visiblity {
+  display: none;
+}
 .info-rating {
   color: #767c86;
 }
+
 .star {
   min-width: 50px;
   min-height: 50px;
@@ -68,4 +71,17 @@ body {
   background-color: #fb7613;
   color: black;
   cursor: pointer;
+}
+.rating-card1 {
+  background-color: #1d232d;
+  min-width: 30%;
+  max-width: 30%;
+  height: 40%;
+  padding: 2rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.rating-card-visiblity1 {
+  display: none;
 }
