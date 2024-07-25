@@ -2,6 +2,7 @@ const card = document.querySelector('.rating-card');
 const submit = document.querySelector('.button-submit');
 const card1 = document.querySelector('.rating-card1');
 const rating = document.getElementsByClassName('rating-div');
+const ratingNumber = document.querySelector('.rating-numbers');
 const ratingSubmited = document.querySelector('.rating-recieved');
 for (let i of rating)
 {
@@ -11,6 +12,7 @@ for (let i of rating)
         span.innerText = i.innerText;
         console.log(span);
         ratingSubmited.appendChild(span);
+        ratingNumber.classList.add('number-invisible');
     });
 }
 const init = () =>
